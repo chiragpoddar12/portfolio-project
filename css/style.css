@@ -59,4 +59,8 @@ hr{
         max-width: 314px;
         margin: 0 auto;
     }
+
+    p{
+        font-size: 15px;
+    }
 }
