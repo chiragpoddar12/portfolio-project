@@ -1,0 +1,61 @@
+body{
+    color: #2d3c49;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    max-width: 997px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-weight: 100;
+}
+
+h2{
+    padding-left: 10px;
+    text-transform: uppercase;
+    color: #7d97ad;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+.logo{
+    width: 25%;
+    margin-top: 20px;
+}
+
+hr{
+    border-top: 5px solid #7d97ad;
+}
+
+.work{
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 767px){
+    h1 {
+        font-size: 32px;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+
+    h2{
+        text-align: center;
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+
+    .all-work {
+        max-width: 314px;
+        margin: 0 auto;
+    }
+}
